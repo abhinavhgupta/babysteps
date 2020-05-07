@@ -1,0 +1,14 @@
+<div class='left'>
+  <div id="left-column" class="yen">
+    <article>
+      <header>
+        <h3>Japanese Yen</h3>
+      </header>
+      <div class="content">
+        <!-- <input id="yen" [value]='getUsdDisplayText()' placeholder="Enter value in Yen" (change)="convertToUsd($event)"> -->
+        <textarea id="yen" [value]='getUsdDisplayText()' (change)="convertToUsd($event)"
+          placeholder="Enter value in Yen"></textarea>
+      </div>
+    </article>
+  </div>
+</div>
